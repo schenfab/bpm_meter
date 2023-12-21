@@ -2449,7 +2449,7 @@
     (pin "1" (uuid 5637bca2-4c18-4bbe-8e70-9fa72a2434ea))
     (pin "2" (uuid dc1277ef-f4f0-41aa-8ee5-aed4380e6360))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R4") (unit 1)
         )
@@ -2483,7 +2483,7 @@
     (pin "3" (uuid 3b3dbb3f-441e-4af0-a6aa-de1c4dbc222d))
     (pin "4" (uuid 0bb15454-7d92-4ed5-b1a6-a16466016037))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "Y1") (unit 1)
         )
@@ -2515,7 +2515,7 @@
     (pin "1" (uuid f68e92de-4f62-4cf4-b891-fa49850f67ac))
     (pin "2" (uuid 4e6a2e8f-9c30-4a00-8fe1-22200369f1ed))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C7") (unit 1)
         )
@@ -2543,7 +2543,7 @@
     )
     (pin "1" (uuid 317b76a2-8960-4030-8e93-3e9a46999ab5))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR08") (unit 1)
         )
@@ -2572,7 +2572,7 @@
     (pin "1" (uuid 03005078-6507-4599-ad34-e2fbdc07e2f4))
     (pin "2" (uuid 2378432b-8a3b-40a7-8cf7-39391a076386))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R6") (unit 1)
         )
@@ -2600,7 +2600,7 @@
     )
     (pin "1" (uuid 04505668-d718-4017-b5db-7f3d76f5dcba))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR01") (unit 1)
         )
@@ -2628,7 +2628,7 @@
     )
     (pin "1" (uuid fe4ff2d7-0385-4bb5-8ecb-e75a2fd43d58))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR024") (unit 1)
         )
@@ -2657,7 +2657,7 @@
     (pin "1" (uuid 38cd7aed-d8a3-424f-9d0b-a8bede468478))
     (pin "2" (uuid 0011d683-bc1f-469e-9933-4f26f324f204))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C1") (unit 1)
         )
@@ -2686,7 +2686,7 @@
     (pin "1" (uuid 7a460376-af59-4dad-9480-3afbc01caf23))
     (pin "2" (uuid ec010e9d-67c7-4995-83e8-12058a05a750))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C10") (unit 1)
         )
@@ -2714,7 +2714,7 @@
     )
     (pin "1" (uuid c5f57ac7-7950-43c6-8102-438a21661e27))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR07") (unit 1)
         )
@@ -2742,7 +2742,7 @@
     )
     (pin "1" (uuid a22430b2-f1a6-488a-a914-4ca26b51da00))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR018") (unit 1)
         )
@@ -2770,7 +2770,7 @@
     )
     (pin "1" (uuid 4a3706d5-97ff-4961-85de-989e58d51ad0))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR015") (unit 1)
         )
@@ -2799,7 +2799,7 @@
     (pin "1" (uuid 102a26b8-4030-45c4-a28c-061ad18e09f4))
     (pin "2" (uuid c3aa5b6a-4c3b-472c-ae44-d223f6261391))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R8") (unit 1)
         )
@@ -2827,7 +2827,7 @@
     )
     (pin "1" (uuid 6b8fef0c-d216-4be2-b78d-3b49baf3f750))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR013") (unit 1)
         )
@@ -2856,7 +2856,7 @@
     (pin "1" (uuid 365bf3a4-80e8-4ffa-80bb-0fc9fb2bdda4))
     (pin "2" (uuid b8a664bb-24e2-4110-b98b-705338a48e08))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C2") (unit 1)
         )
@@ -2884,7 +2884,7 @@
     )
     (pin "1" (uuid 21cced81-f774-4435-8257-bca8fcd6c5dd))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#FLG02") (unit 1)
         )
@@ -2912,7 +2912,7 @@
     )
     (pin "1" (uuid 270d0083-9e0f-49c7-b4e4-9be3d726e07b))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR028") (unit 1)
         )
@@ -2941,7 +2941,7 @@
     (pin "1" (uuid 275bacbe-fa5d-460a-a1f9-1ac4dcf75c27))
     (pin "2" (uuid ee3a2ee2-67e9-488a-9e2b-489e665e1d1a))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C15") (unit 1)
         )
@@ -2975,7 +2975,7 @@
     (pin "3" (uuid 1e2e2687-457b-4e5e-b447-910b367470cb))
     (pin "4" (uuid 9360baa1-565e-4d47-ba66-042733c8a8bb))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "SW2") (unit 1)
         )
@@ -3003,7 +3003,7 @@
     )
     (pin "1" (uuid a52efd14-6157-41bc-ab44-3509d897e250))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR019") (unit 1)
         )
@@ -3031,7 +3031,7 @@
     )
     (pin "1" (uuid 036a3c70-2a91-4e54-9e47-6a5e1ee8fed9))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR025") (unit 1)
         )
@@ -3059,7 +3059,7 @@
     )
     (pin "1" (uuid 7c811b89-af12-4859-90b5-9cecd9b0f766))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR023") (unit 1)
         )
@@ -3088,7 +3088,7 @@
     (pin "1" (uuid d45cac1a-2bd4-40ec-9f38-1051e6da159d))
     (pin "2" (uuid c5d478f0-d6d6-4ca9-8d84-7c55d6d8d145))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C9") (unit 1)
         )
@@ -3117,7 +3117,7 @@
     (pin "1" (uuid 1bab3a14-29a2-4be7-a278-95411deae4de))
     (pin "2" (uuid 43c15a6c-d449-4692-a237-d810e4bfcdad))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C11") (unit 1)
         )
@@ -3146,7 +3146,7 @@
     (pin "1" (uuid 9939b520-7952-49c8-879c-a1f69354a3b4))
     (pin "2" (uuid 4d277ce6-1431-40e2-8897-953672579a50))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R7") (unit 1)
         )
@@ -3174,7 +3174,7 @@
     )
     (pin "1" (uuid 3261f3b6-0ec5-43b7-9375-471a5cde4fac))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1/24d7d496-8920-4421-a637-0c9bf263a085"
           (reference "IO19") (unit 1)
         )
@@ -3199,7 +3199,7 @@
     )
     (pin "1" (uuid 0355f1b7-80ba-4a9c-ae37-a04625bb1720))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR016") (unit 1)
         )
@@ -3227,7 +3227,7 @@
     )
     (pin "1" (uuid 5afe3613-ed4f-42e9-892f-4a2d5d61c37b))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR022") (unit 1)
         )
@@ -3255,7 +3255,7 @@
     )
     (pin "1" (uuid 2e42eef6-6d71-4a19-b187-e6c46c1eedd6))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR027") (unit 1)
         )
@@ -3351,7 +3351,7 @@
     (pin "8" (uuid 68c29043-7f79-478b-83f0-3d2177b5deb9))
     (pin "9" (uuid 09158485-419c-46ab-9ad8-54442a884d3c))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "U1") (unit 1)
         )
@@ -3379,7 +3379,7 @@
     )
     (pin "1" (uuid ebcf4251-91ad-417c-b20b-b6394bc2f812))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1/24d7d496-8920-4421-a637-0c9bf263a085"
           (reference "IO18") (unit 1)
         )
@@ -3405,7 +3405,7 @@
     (pin "1" (uuid 925ffece-023c-463e-96e7-cbd669f7adc7))
     (pin "2" (uuid 0418abd7-b03d-44ad-9ec5-26dd3f238a69))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C5") (unit 1)
         )
@@ -3434,7 +3434,7 @@
     (pin "1" (uuid 945be3bf-fbc3-4fb1-a57a-baa8165b1471))
     (pin "2" (uuid 44d500ce-7508-4afc-aacc-2af4d655dda0))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R1") (unit 1)
         )
@@ -3463,7 +3463,7 @@
     (pin "1" (uuid 766e238b-ccfc-430a-86f8-00508f5ff783))
     (pin "2" (uuid 16a35965-56a0-4ef1-bdc3-bd9abb653e85))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C14") (unit 1)
         )
@@ -3516,7 +3516,7 @@
     (pin "B9" (uuid 7ce51201-0362-4515-890d-fc22d7aaf942))
     (pin "S1" (uuid 5aba7915-3e51-499a-927f-8b19b03102ca))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "J1") (unit 1)
         )
@@ -3545,7 +3545,7 @@
     (pin "1" (uuid 12e96b46-ccf5-49eb-968e-c89c664825c2))
     (pin "2" (uuid 2d4253c1-1f2e-4990-829e-7d420090f58c))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C3") (unit 1)
         )
@@ -3573,7 +3573,7 @@
     )
     (pin "1" (uuid 86a6d780-23d5-457a-9996-f174cc511da0))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR02") (unit 1)
         )
@@ -3605,7 +3605,7 @@
     (pin "1" (uuid c07f8939-19a3-446b-90ce-f8446fd8d4a8))
     (pin "2" (uuid 3b0c9c45-b478-4272-b710-256893d47273))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C8") (unit 1)
         )
@@ -3633,7 +3633,7 @@
     )
     (pin "1" (uuid 898c3de2-755c-4406-8f84-32c787509647))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR014") (unit 1)
         )
@@ -3661,7 +3661,7 @@
     )
     (pin "1" (uuid ddd6f5ab-8841-4327-bc7f-d5f9de196bf0))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR03") (unit 1)
         )
@@ -3689,7 +3689,7 @@
     )
     (pin "1" (uuid 30b4f414-482b-466d-8d0c-37d98eead12d))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR011") (unit 1)
         )
@@ -3717,7 +3717,7 @@
     )
     (pin "1" (uuid b63fa9e9-7e4b-4337-b0d7-9685b7e28a89))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR05") (unit 1)
         )
@@ -3746,7 +3746,7 @@
     (pin "1" (uuid 6490f511-6275-4843-b4b5-7fbc24a214d4))
     (pin "2" (uuid 09f6f76c-9a44-47f1-a1a4-25b8e76565b5))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C12") (unit 1)
         )
@@ -3774,7 +3774,7 @@
     )
     (pin "1" (uuid 8e6f68a8-0e06-43b8-b01e-84ef36f70481))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR026") (unit 1)
         )
@@ -3803,7 +3803,7 @@
     (pin "1" (uuid 42f41b06-bb0b-44b2-9322-6c42a566664a))
     (pin "2" (uuid 0811fc05-ffba-41c0-944e-7e803200f7fe))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R7") (unit 1)
         )
@@ -3836,7 +3836,7 @@
     (pin "2" (uuid 4ea615bf-645a-48b6-83b8-eb51e5bd3bc4))
     (pin "3" (uuid 76be5c10-5c25-4b4f-bc94-e61be20b990e))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "U4") (unit 1)
         )
@@ -3865,7 +3865,7 @@
     (pin "1" (uuid 47bff5e6-92b7-41ae-9284-c4fe16edc27a))
     (pin "2" (uuid bd27fdf5-2ab2-4537-988a-8b7b1b19ae08))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R3") (unit 1)
         )
@@ -3906,7 +3906,7 @@
     (pin "7" (uuid 598a6204-7b90-4eef-af5f-74c97da03553))
     (pin "8" (uuid cd4c91cd-45a6-4f4f-a839-409f60e2da83))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "U3") (unit 1)
         )
@@ -3934,7 +3934,7 @@
     )
     (pin "1" (uuid a38b106f-1472-40e6-b288-f8c983ec7d31))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR013") (unit 1)
         )
@@ -3966,7 +3966,7 @@
     (pin "1" (uuid 1ebcd652-1da8-40b0-93bb-612186a6d281))
     (pin "2" (uuid 58ea348a-e8ff-409d-8d0a-22dede7bb6dc))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "D903") (unit 1)
         )
@@ -3994,7 +3994,7 @@
     )
     (pin "1" (uuid 3b9b1234-438d-41b3-9903-ed9aba0f5175))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR012") (unit 1)
         )
@@ -4023,7 +4023,7 @@
     (pin "1" (uuid 1c824a7a-b89d-4834-9d6d-79f7cfbbdee2))
     (pin "2" (uuid 581a46fc-6567-4424-8c34-4ffd4ae73996))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C13") (unit 1)
         )
@@ -4052,7 +4052,7 @@
     (pin "1" (uuid 0e4c1a72-6cad-4397-83d3-0630c96fec45))
     (pin "2" (uuid 0dbb3b3e-77be-4bef-bcde-a947f7f01ba2))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C16") (unit 1)
         )
@@ -4081,7 +4081,7 @@
     (pin "1" (uuid 674d174b-6228-4a9f-ada4-77cfc914f3f7))
     (pin "2" (uuid 56ea3a52-e3db-4499-9206-8a8ab06fdfab))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C4") (unit 1)
         )
@@ -4109,7 +4109,7 @@
     )
     (pin "1" (uuid 2e2f84e3-a609-423e-9d9e-fba04e14aa23))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR04") (unit 1)
         )
@@ -4137,7 +4137,7 @@
     )
     (pin "1" (uuid e249098c-4c22-4200-a14d-933beee083f9))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#PWR06") (unit 1)
         )
@@ -4169,7 +4169,7 @@
     (pin "1" (uuid d19fb7a3-62ee-4864-ba5e-6ec5c80a1333))
     (pin "2" (uuid 68729b0d-3e44-4a2b-bceb-b439416cffdb))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "D1") (unit 1)
         )
@@ -4197,7 +4197,7 @@
     )
     (pin "1" (uuid d6a95737-ccb4-4572-9a60-a56f8257bf56))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "#FLG01") (unit 1)
         )
@@ -4225,7 +4225,7 @@
     )
     (pin "1" (uuid 5f48dbe6-863d-4fca-95c2-68af633fdb01))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1/24d7d496-8920-4421-a637-0c9bf263a085"
           (reference "IO20") (unit 1)
         )
@@ -4251,7 +4251,7 @@
     (pin "1" (uuid 80ab215a-e68e-4c04-a06c-67fa4a3ba256))
     (pin "2" (uuid c249c5b7-7fbf-4bde-bb65-8773633d97ed))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "R2") (unit 1)
         )
@@ -4280,7 +4280,7 @@
     (pin "1" (uuid d1ec514d-b3ce-4b25-aeb4-d3566893dbe2))
     (pin "2" (uuid 2307b6ad-601e-4b5d-b42c-dc3e26776883))
     (instances
-      (project "pcb_dezentral"
+      (project "bpm_meter"
         (path "/35c47459-45a7-4753-acae-c8b47e7575e1"
           (reference "C6") (unit 1)
         )
