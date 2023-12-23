@@ -1,4 +1,4 @@
-22496286544544318
+22497989881616918
 00_project_library
 Crystal_SMD_3225-4Pin_3.2x2.5mm
 SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
@@ -41,6 +41,13 @@ SOIC SO
 0
 8
 8
+00_project_library
+SOP-6-2.54mm
+https://datasheet.lcsc.com/lcsc/1810111530_Everlight-Elec-H11L1S-TA_C78589.pdf
+SOP SO
+0
+4
+4
 00_project_library
 SOT-223-3_TabPin2
 module CMS SOT223 4 pins

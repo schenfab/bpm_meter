@@ -2290,10 +2290,10 @@
     (uuid fb579e5b-0484-47e6-ac80-fd90c09da264)
   )
 
-  (global_label "beat_3V3" (shape input) (at 36.83 41.91 180) (fields_autoplaced)
+  (global_label "beat_od" (shape input) (at 36.83 41.91 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b9067008-5081-4d98-b7e2-30ee664cc68c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 25.1622 41.91 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 26.3718 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
