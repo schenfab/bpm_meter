@@ -1,4 +1,4 @@
 bpm_meter-backups/
-~bpm_meter.kicad_sch.lck
+~*.kicad_*.lck
 *.bak
 *#

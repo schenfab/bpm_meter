@@ -524,6 +524,10 @@
       {
         "netclass": "Medium",
         "pattern": "ds_0V"
+      },
+      {
+        "netclass": "Medium",
+        "pattern": "+3.3VP"
       }
     ]
   },
