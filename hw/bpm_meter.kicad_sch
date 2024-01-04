@@ -2285,7 +2285,7 @@
     (property "Value" "4u7 50V" (at 124.206 24.638 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_1206_3216Metric" (at 127.9652 35.56 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 127.9652 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 31.75 0)
