@@ -1,4 +1,4 @@
-22684095503832503
+22684095639290661
 00_project_library
 Crystal_SMD_3225-4Pin_3.2x2.5mm
 SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
@@ -25,7 +25,7 @@ QFN-44-5x5mm_P0.4mm
 QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/2512S.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
 QFN NoLead
 0
-49
+58
 45
 00_project_library
 RP2040-QFN-56
