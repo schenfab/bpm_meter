@@ -1,59 +1,75 @@
 from machine import Pin, I2C
 
-led_chars = {
-#       A B C D E F G
-  "0": [1,1,1,1,1,1,0],
-  "1": [0,1,1,0,0,0,0],
-  "2": [1,1,0,1,1,0,1],
-  "3": [1,1,1,1,0,0,1],
-  "4": [0,1,1,0,0,1,1],
-  "5": [1,0,1,1,0,1,1],
-  "6": [1,0,1,1,1,1,1],
-  "7": [1,1,1,0,0,0,0],
-  "8": [1,1,1,1,1,1,1],
-  "9": [1,1,1,1,0,1,1],
-  " ": [0,0,0,0,0,0,0],
-  "-": [0,0,0,0,0,0,1],
-}
+class LedDisplay:
 
-led_pins = [
-#   A  B  C  D  E  F  G DP
-  [20,19,17,16,15,21,22,18],
-  [24,23,13,12,11,25,26,14],
-  [28,27, 9, 8, 7,29,30,10],
-]
+  _ADDR = 60 # I2C address of LED driver (IS31FL3236)
 
-def led_init():
-  sdb=Pin(2, Pin.OUT)
-  sdb.off()
+  _REG_SSD       = 0x00
+  _REG_PWM_BASE  = 0x01
+  _REG_UPDATE    = 0x25
+  _REG_CTRL_BASE = 0x26
+  _REG_GLOBAL    = 0x4A
+  _REG_RESET     = 0x4F
 
-  global i2c
-  i2c = I2C(0, scl=Pin(1), sda=Pin(0), freq=400_000)
+  _OUT_MIN =  7
+  _OUT_MAX = 30
 
-  for i in range(0x26, 0x49):
-    i2c.writeto_mem(60, i, b'\x00')  # Disable all outputs
-  for i in range(0x07, 0x1E):
-    i2c.writeto_mem(60, i, b'\x40')  # Set PWM for all outputs
-  i2c.writeto_mem(60, 0x25, b'\x00') # Update all output registers
-  i2c.writeto_mem(60, 0x00, b'\x01') # Enable normal operation
+  _PWM_VALUE = 0x40
 
-  sdb.on()
+  _CHARS = {
+    #     A B C D E F G
+    "0": [1,1,1,1,1,1,0],
+    "1": [0,1,1,0,0,0,0],
+    "2": [1,1,0,1,1,0,1],
+    "3": [1,1,1,1,0,0,1],
+    "4": [0,1,1,0,0,1,1],
+    "5": [1,0,1,1,0,1,1],
+    "6": [1,0,1,1,1,1,1],
+    "7": [1,1,1,0,0,0,0],
+    "8": [1,1,1,1,1,1,1],
+    "9": [1,1,1,1,0,1,1],
+    " ": [0,0,0,0,0,0,0],
+    "-": [0,0,0,0,0,0,1],
+  }
 
-def led_output(pin, value):
-  i2c.writeto_mem(60, 0x26+pin-1, str(value).encode())
+  _PINS = [
+    # A  B  C  D  E  F  G DP
+    [20,19,17,16,15,21,22,18],
+    [24,23,13,12,11,25,26,14],
+    [28,27, 9, 8, 7,29,30,10],
+  ]
 
-def led_print_char(pos, char):
-  for i in range(7):
-    led_output(led_pins[pos][i], led_chars[char][i])
-  i2c.writeto_mem(60, 0x25, b'\x00') # Update all output registers
+  def __init__(self):
+    self.i2c = I2C(0, scl=Pin(1), sda=Pin(0), freq=400_000)
+    self.sdb = Pin(2, Pin.OUT)
 
-def led_print(value):
-  padded_str="   "+str(value)
-  for pos in range(3):
-    led_print_char(pos, padded_str[-1-pos])
+    self.sdb.off()
 
-led_init()
+    self.i2c.writeto_mem(self._ADDR, self._REG_RESET, b'\x00')
+    for i in range(self._REG_PWM_BASE+self._OUT_MIN-1, self._REG_PWM_BASE+self._OUT_MAX-1):
+      self.i2c.writeto_mem(self._ADDR, i, str(self._PWM_VALUE).encode())
+    self.i2c.writeto_mem(self._ADDR, self._REG_UPDATE, b'\x00')
+    self.i2c.writeto_mem(self._ADDR, self._REG_SSD, b'\x01')
+
+    self.sdb.on()
+
+  def _output(self, pin, value):
+    self.i2c.writeto_mem(self._ADDR, self._REG_CTRL_BASE+pin-1, str(value).encode())
+
+  def _print_char(self, pos, char):
+    for i in range(7):
+      self._output(self._PINS[pos][i], self._CHARS[char][i])
+    self.i2c.writeto_mem(self._ADDR, self._REG_UPDATE, b'\x00')
+
+  def print(self, value):
+    padded_str="   "+str(value)
+    for pos in range(3):
+      self._print_char(pos, padded_str[-1-pos])
+
+led = LedDisplay()
+
 for i in range(1000):
-  led_print(i)
+  led.print(i)
 for i in range(1000):
-  led_print(999-i)
+  led.print(999-i)
+led.print("---")
