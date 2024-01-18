@@ -6,8 +6,8 @@ from machine import Pin
 
 micropython.alloc_emergency_exception_buf(100)
 
-class BeatHandler:
 
+class BeatHandler:
     def __init__(self, display):
         self._last_beat_ms = 10e9
         self._display = display
@@ -26,12 +26,13 @@ class BeatHandler:
     def start(self, beat_pin):
         beat_pin.irq(self._irq, Pin.IRQ_RISING)
 
+
 # Define display, beat handler, and beat pin
 display = LedDisplay(pwm=0x40)
 beat_handler = BeatHandler(display)
-beat_pin = Pin(24, Pin.IN, Pin.PULL_UP) # optocoupler
-#beat_pin = Pin(25, Pin.IN) # MOSFET
-#beat_pin = Pin(26, Pin.IN) # ADC
+beat_pin = Pin(24, Pin.IN, Pin.PULL_UP)  # optocoupler
+# beat_pin = Pin(25, Pin.IN) # MOSFET
+# beat_pin = Pin(26, Pin.IN) # ADC
 
 # Display test pattern for 1 second
 display.print("888")
