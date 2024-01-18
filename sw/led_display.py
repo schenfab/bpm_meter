@@ -14,8 +14,6 @@ class LedDisplay:
   _OUT_MIN =  7
   _OUT_MAX = 30
 
-  _PWM_VALUE = 0x40
-
   _CHARS = {
     #     A B C D E F G
     "0": [1,1,1,1,1,1,0],
@@ -39,7 +37,7 @@ class LedDisplay:
     [28,27, 9, 8, 7,29,30,10],
   ]
 
-  def __init__(self):
+  def __init__(self, pwm=0x40):
     self.i2c = I2C(0, scl=Pin(1), sda=Pin(0), freq=400_000)
     self.sdb = Pin(2, Pin.OUT)
 
@@ -47,7 +45,7 @@ class LedDisplay:
 
     self.i2c.writeto_mem(self._ADDR, self._REG_RESET, b'\x00')
     for i in range(self._REG_PWM_BASE+self._OUT_MIN-1, self._REG_PWM_BASE+self._OUT_MAX-1):
-      self.i2c.writeto_mem(self._ADDR, i, str(self._PWM_VALUE).encode())
+      self.i2c.writeto_mem(self._ADDR, i, str(pwm).encode())
     self.i2c.writeto_mem(self._ADDR, self._REG_UPDATE, b'\x00')
     self.i2c.writeto_mem(self._ADDR, self._REG_SSD, b'\x01')
 
