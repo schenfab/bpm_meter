@@ -14,7 +14,9 @@ class BeatHandler:
 
     def _update_bpm(self, beat_period_ms):
         tempo_bpm = int(60_000 / beat_period_ms + 0.5)
+        self._display.points(0b001)
         self._display.print(tempo_bpm)
+        self._display.points(0b000)
 
     def _irq(self, pin):
         now_ms = time.ticks_ms()
