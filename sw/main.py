@@ -26,7 +26,7 @@ class BeatHandler:
             micropython.schedule(self._update_bpm, beat_period_ms)
 
     def start(self, beat_pin):
-        beat_pin.irq(self._irq, Pin.IRQ_RISING)
+        beat_pin.irq(self._irq, Pin.IRQ_FALLING)
 
 
 # Define display, beat handler, and beat pin
