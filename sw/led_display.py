@@ -9,6 +9,7 @@ class LedDisplay:
     _REG_UPDATE = 0x25
     _REG_CTRL_BASE = 0x26
     _REG_GLOBAL = 0x4A
+    _REG_PWM_FREQ = 0x4B
     _REG_RESET = 0x4F
 
     _OUT_MIN = 7
@@ -58,6 +59,7 @@ class LedDisplay:
         ):
             self.i2c.writeto_mem(self._ADDR, i, str(pwm).encode())
         self.i2c.writeto_mem(self._ADDR, self._REG_UPDATE, b"\x00")
+        self.i2c.writeto_mem(self._ADDR, self._REG_PWM_FREQ, b"\x01")
         self.i2c.writeto_mem(self._ADDR, self._REG_SSD, b"\x01")
 
         self.sdb.on()
